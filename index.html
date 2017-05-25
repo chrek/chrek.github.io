@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<div class="home">
+	<h1 class="page-heading">Posts</h1>
+
+	<ul class="post-list">
+	{% for post in site.posts %}
+	  <li>
+	    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+	    <h2>
+	      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+	    </h2>
+	    <a href="{{ post.url | prepend: site.baseurl }}">Read more ...</a>    
+	  </li>
+	{% endfor %}
+	</ul>
+
+	<p class="rss-subscribe">
+		subscribe <a href="{{ "/feed.xml" | prepend:site.baseurl }}">via RSS</a>
+	</p>
+</div>
+
+<h1>Welcome to my wardrobes!</h1>
+
+<p>You will find a variety of dressers and wardrobes that will meet your needs</p>
+<p>
+	Organize your bedroom and add valuable storage space with the addition of a stunning armoire, wardrobes and dressers
+</p>
+<div class="row">
+	<div class="col-md-4">
+		<h2>Armoires</h2>
+		<p>
+			We present a broad range of cupboards to you so that you find yours easily. A beautiful cupboard to arrange your interior as well as possible,…
+		</p>
+	</div>
+	<div class="col-md-4">
+		<h2>Dressers</h2>
+		<p>
+			Enhance your Bedroom Storage with our Dressers. Dressers with storage and style to fit your bedroom perfectly.
+		</p>
+	</div>
+	<div class="col-md-4">
+		<h2>Wardrobes</h2>
+		<p>
+			Check out our huge range of well-designed and durable wardrobes at low prices. Choose and customise sizes, styles and interiors to match your rooms.
+		</p>
+	</div>	
+</div>
