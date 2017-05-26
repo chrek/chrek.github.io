@@ -16,7 +16,8 @@
 title: Criscar's Armoires & Wardrobes
 email: chrek@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Find a dresser, wardrobes and armoires designed and built by first class professionals
+  Dressers, wardrobes and armoires designed and built by first class professionals
+  -- SORRY NOT FOR SALES!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: criscarwardrobes
